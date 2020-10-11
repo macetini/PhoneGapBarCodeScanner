@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+#detailsTextContent {
+	min-height: 157px;
+}
+
+@media screen and (orientation: landscape) {
+	#detailsPageContent {
+		margin-top: -95px;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	#detailsPageContent {
+		margin-top: -130px;
+	}
+}
+
+#detailsHeader {
+	margin-bottom: 20px;
+}

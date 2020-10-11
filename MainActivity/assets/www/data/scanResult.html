@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+	<title>Scanner Result Page</title>
+
+</head>
+
+<body>
+
+	<div data-role="page" id="scanResult">
+
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+			<h1>Sintesys</h1>
+			<a href="optionsDialog.html" data-rel="dialog" data-role="button" data-icon="gear" data-iconpos="notext" class="ui-btn-right"></a>
+		</div>
+		<!-- /Header -->
+
+		<div id="scanResultContent">
+
+			<ul id="resultTitle">
+				<li><span id="scanResultLabel"></span> &nbsp;<span id="resultStatus"></span></li>
+			</ul>
+
+			<table class="table-stroke" id="scanResultTable" data-mode="reflow">
+				<tbody>
+					<tr>
+						<td class="tableLabel"><span id="placeOfPurchase"></span></td>
+						<td class="tableData" id="purchasePlaceCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="dateOfPurchase"></span></td>
+						<td class="tableData" id="purchaseDateCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="excursion"></span></td>
+						<td class="tableData" id="excursionCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="boardingLocation"></span></td>
+						<td class="tableData" id="boardingLocationCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="guideLanguage"></span></td>
+						<td class="tableData" id="guideLanguageCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="adults"></span></td>
+						<td class="tableData" id="adlNumCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="pricePerAdult"></span></td>
+						<td class="tableData" id="pricePerAdultCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="children"></span></td>
+						<td class="tableData" id="chlNumCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="pricePerChild"></span></td>
+						<td class="tableData" id="pricePerChildCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="infants"></span></td>
+						<td class="tableData" id="infNumCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="buyer"></span></td>
+						<td class="tableData" id="buyerCell"></td>
+					</tr>
+
+					<tr>
+						<td class="tableLabel"><span id="total"></span></td>
+						<td class="tableData" id="totalCell"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<fieldset class="ui-grid-a" id="buttons">
+
+				<div class="ui-block-a">
+					<a href="#" data-role="button" id="detailsBtn"></a>
+				</div>
+
+				<div class="ui-block-b">
+					<a href="#" data-role="button" id="scanCodeBtn"></a>
+				</div>
+
+			</fieldset>
+
+		</div>
+		
+		<div data-role="popup" id="noConnectionPopUp" data-position-to="#resultTitle">
+			<p>No Internet connection!</p>
+		</div>
+
+	</div>
+
+</body>
+
+</html>

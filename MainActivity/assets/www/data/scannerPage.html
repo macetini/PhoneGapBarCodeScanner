@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+	<title>Scanner Page</title>
+
+</head>
+
+<body>
+
+	<div data-role="page" id="scannerPage">
+
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+			<h1>Sintesys</h1>
+			<a href="optionsDialog.html" data-rel="dialog" data-role="button" data-icon="gear" data-iconpos="notext" class="ui-btn-right"></a>
+		</div>
+		<!-- /Header -->
+
+		<div class="all" id="scannerPageContent">
+
+			<h1 id="scanPageSmallLogo"></h1>
+
+			<img class="logoImg" src="../images/logo.png" />
+
+			<h2 id="scanPageBigLogo"></h2>
+
+			<a href="#" data-role="button" id="scanCodeBtn"></a>
+		</div>
+		
+		<div data-role="popup" id="noConnectionPopUp" data-position-to="#scannerPageContent">
+			<p><span id="noConnectionPopUpText"></span></p>
+		</div>
+
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+@media screen and (orientation: landscape) {
+	#scannerPageContent {
+		margin-top: -85px;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	#scannerPageContent {
+		margin-top: -105px;
+	}
+}

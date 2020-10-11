@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+html {
+	min-height: 100%;
+	min-width: 100%;
+	font-family: Arial; 
+}
+
+h1 {
+	clear: both;
+	margin: 10 0;
+	font-size: 1em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.6em;
+	text-align: center;
+	margin-top: 15px;
+	padding: 0;
+}
+
+.ui-btn-icon-notext .ui-btn-inner { 
+	border-color: transparent;
+}
+
+.ui-page {
+	background: no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.table-stroke thead th {
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	widows: 120px;
+}
+
+.table-stroke tbody th,.table-stroke tbody td {
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.all {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 80%;
+	text-align: center;
+}
+
+.logoImg {
+	width: 50px;
+	height: 50px;
+}

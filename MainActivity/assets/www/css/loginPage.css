@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+
+#loginPageContent {
+	margin-top: 60px;
+	text-align: center;
+	margin-left: 10%;
+	width: 80%;
+}
+
+#logoContainer {
+	width: 100%;
+	display: table;
+	vertical-align: middle;
+	line-height: 60px;
+}
+
+#loginLogoImg {
+	vertical-align: middle;
+}
+
+#leftLogoText {
+	text-align: right;
+}
+
+#rightLogoText {
+	text-align: left;
+}
+
+.logoElem {
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+#authFailPopUpText {
+	text-align: center;
+}​

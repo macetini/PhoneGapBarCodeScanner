@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+#optionsDialog {
+	text-align: center;
+}
+
+#dialogCloseBtn {
+	width: 80%;
+	left: 10%
+}
+
+.langRbLabel {
+	min-width: 130px;
+}
+
+.themeRbLabel {
+	min-width: 90px;
+}
+
+.tableContainer {
+	margin: 0 auto;
+	display: table;
+}
+
+.fieldcontainClass {
+	text-align: center;
+}

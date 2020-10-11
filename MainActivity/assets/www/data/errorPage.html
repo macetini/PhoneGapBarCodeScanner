@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+	<title>Error Page</title>
+
+</head>
+
+<body>
+
+	<div data-role="page" id="errorPage">
+
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+			<h1>Sintesys</h1>
+			<a href="optionsDialog.html" data-rel="dialog" data-role="button" data-icon="gear" data-iconpos="notext" class="ui-btn-right"></a>
+		</div>
+		<!-- /Header -->
+
+		<div class="all" id="errorPageContent">
+
+			<h1 id="errorHeaderMsg"></h1>
+
+			<img class="logoImg" src="../images/logo.png" />
+
+			<p id="errorString"></p>
+			
+			<a href="#" data-role="button" id="scanCodeBtn">Scan Code</a>
+			
+			<div data-role="popup" id="noConnectionPopUp" data-position-to="#errorPageContent">
+				<p id="authFailPopUpText"><p>
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

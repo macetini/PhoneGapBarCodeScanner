@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+	<title>Login Page</title>
+
+</head>
+
+<body>
+
+	<div data-role="page" id="loginPage">
+
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+			<h1>Sintesys</h1>
+			<a href="optionsDialog.html" data-rel="dialog" data-role="button" data-icon="gear" data-iconpos="notext" class="ui-btn-right"></a>
+		</div>
+		<!-- /Header -->
+
+		<div data-role="content" id="loginPageContent">
+
+			<div id="logoContainer">
+
+				<span id="leftLogoText" class="logoElem"></span> 
+				
+				<span class="logoElem"><img class="logoImg" id="loginLogoImg" src="../images/logo.png" /></span>
+				
+				<span id="rightLogoText" class="logoElem"></span>
+
+			</div>
+			
+			<form>
+
+			<div data-role="fieldcontain" class="ui-hide-label">
+			
+				<label id="usernameLabel" for="username"></label> 
+				<input type="text" name="username" id="username" placeholder=""/>
+				
+			</div>
+
+			<div data-role="fieldcontain" class="ui-hide-label">
+			
+				<label id="passwordLabel" for="password"></label> 
+				<input type="password" name="password" id="password" placeholder=""/>
+				
+			</div>
+
+			<a href="#" data-role="button" id="submitBtn"></a>
+			
+			</form>
+
+		</div>
+
+		<div data-role="popup" id="noConnectionPopUp" data-position-to="#logoContainer">
+			<p><span id="noConnectionPopUpText"></span></p>
+		</div>
+		
+		<div data-role="popup" id="authFailPopUp" data-position-to="window">
+			<p id="authFailPopUpText"></p>
+		</div>
+		
+	</div>
+	
+</body>
+
+</html>
